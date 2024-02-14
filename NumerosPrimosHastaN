@@ -8,5 +8,5 @@ for i in range(2,numero + 1):
     if i % j == 0:
       primo = False
       break  
-if primo:
+  if primo:
     print(i)
