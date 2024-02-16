@@ -1,0 +1,15 @@
+"""
+Maximo comun divisor de 2 numeros 
+"""
+numero1 = int(input("Ingresa un numero"))
+numero2 = int(input("Ingresa un numero"))
+
+while numero2 > 0:
+    mcd = numero1 % numero2
+    numero1 = numero2
+    numero2 = mcd
+print(numero1)
+
+
+
+  
