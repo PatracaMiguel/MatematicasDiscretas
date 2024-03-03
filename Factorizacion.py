@@ -1,10 +1,12 @@
 #Factores de un numero entero N 
 
 numero = int(input("Ingresa un numero "))
-Factor = 1
 
-for factor in range (Factor,numero + 1):
-    if numero % Factor == 0:
-        print(factor)
+for i in range (1,numero):
+    if numero % i == 0:
+        print(i)
         
         
+
+
+
